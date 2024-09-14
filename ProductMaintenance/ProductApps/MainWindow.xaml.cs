@@ -45,6 +45,12 @@ namespace ProductApps
 
                 totalWrapChargeTextBox.Text = totalChargewithWrap.ToString();
 
+                decimal gstRate = 0.10m;
+
+                decimal totalChargeAfterGST = totalChargewithWrap * gstRate;
+                gstChargeTextBox.Text = totalChargeAfterGST.ToString();
+
+
 
                 
             }
