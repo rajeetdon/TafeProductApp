@@ -20,6 +20,10 @@
         <TextBox Name="totalChargeTextBox" HorizontalAlignment="Left" Height="24" Margin="188,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
 
 
+        <Label Content="Total Charge after adding &#xD;&#xA;the wrap charge ($5)" HorizontalAlignment="Left" Height="43" Margin="0,250,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBox Name="totalWrapChargeTextBox" HorizontalAlignment="Left" Height="24" Margin="190,260,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
+
+
 
     </Grid>
 </Window>
